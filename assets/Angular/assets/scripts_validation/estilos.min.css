@@ -1,0 +1,66 @@
+
+:root{
+  /* PARA FORMS */
+  /* IFA */
+  /* --color-fuerte:#ac1905;
+  --color-debil:#ec9696; */
+  --color-fuerte:#00722d;
+  --color-debil:#97ec96;
+  /* PARA PAGINA */
+  /* IFA */
+  /* --color-fuerteP:#750202;
+  --color-debilP:#e99898; */
+  --color-fuerteP:#19688f;
+  --color-debilP:#c2eacf;
+}
+/* PERFIL */
+
+.Gradiente{
+	background: linear-gradient(-80deg, var(--color-debilP), var(--color-fuerteP));
+    color: aliceblue;
+}
+.GradienteInverso
+{
+	background: linear-gradient(-80deg, var(--color-fuerteP), var(--color-debilP));
+    color: aliceblue;
+}
+/* HEADS DE LAS TABLAS */
+.table-responsive table thead{
+  background: var(--color-fuerteP);
+}
+/* MODALS */
+.modal-content {
+  /* background: linear-gradient(1deg, #138acf, #1c20e6); */
+  background: linear-gradient(-80deg, var(--color-debilP), var(--color-fuerteP));
+  color: aliceblue;
+}
+#content{
+  background: linear-gradient(-180deg, var(--color-fuerteP), var(--color-debilP)); padding: 5px 20px;
+}
+.modal-header{
+  background-color: var(--color-fuerteP);
+}
+
+.modal-body .form-control {
+/* background: linear-gradient(150deg, #1c20e6, #138acf); */
+background: linear-gradient(150deg, var(--color-fuerte), var(--color-debil));
+color: aliceblue;
+}
+/*LOS INPUTS DE LOS FORMULARIOS*/
+.modal-body .form-group input {
+  /* background: linear-gradient(150deg, #1c20e6, #138acf); */
+  background: linear-gradient(150deg, var(--color-fuerte), var(--color-debil));
+  color: aliceblue;
+}
+/* LOS SELECT DE LOS FORMULARIOS */
+.modal-body .form-group select {
+  /* background: linear-gradient(150deg, #1c20e6, #138acf); */
+  background: linear-gradient(150deg, var(--color-fuerte), var(--color-debil));
+  color: rgb(255, 255, 255);
+}
+.modal-body .form-group select optgroup option{
+  /* background: linear-gradient(150deg, #1c20e6, #138acf); */
+  background: linear-gradient(150deg, var(--color-fuerte), var(--color-debil));
+  color: rgb(0, 0, 0);
+  font-size: medium;
+}
