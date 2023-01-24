@@ -1,30 +1,124 @@
 
 :root{
-  /* PARA FORMS */
+  --color-fuenteModal:#000; /*COLOR DE FUENTES EN MODALS fff es blanco   , 000 es negro*/
+  /* PARA FORMS INPUTS*/
   /* IFA */
   /* --color-fuerte:#ac1905;
   --color-debil:#ec9696; */
-  --color-fuerte:#00722d;
-  --color-debil:#97ec96;
-  /* PARA PAGINA */
+
+  /* PARA BELLAS ARTES */
+  /* --color-fuerte:#cf5d00,#251303c8;
+  --color-debil:#cf5d00; */
+  /* PARA KOLKLORE */
+  --color-fuerte:#23afc4,#fff;
+  --color-debil:#23afc4;
+  /* PARA PAGINA Y FORMS*/
   /* IFA */
   /* --color-fuerteP:#750202;
   --color-debilP:#e99898; */
-  --color-fuerteP:#19688f;
-  --color-debilP:#c2eacf;
+  /* PARA BELLAS ARTES */
+  /* --color-fuerteP:#c55902,#1f0f00;
+  --color-debilP:#1f0f00; */
+  /* PARA KOLKLORE */
+  --color-fuerteP:#136673;
+  --color-debilP:#ffffff;
+}
+.headerCardlcch{
+  background-color: var(--color-fuerteP);
+}
+/*INICIO HEADER COLOR */
+.tarjetasfondo{
+  background-color: var(--color-fuerteP);
+  border-radius:10px 10px 10px 10px;
+  padding-top: 10px;
+  margin-top: -14px;
+  margin-left: 5px;
+  }
+
+
+  .back:before{
+    content: "";
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    z-index: -1;
+    background-size:100% 100%;
+    background-color: var(--color-fuerteP);
+    /* background: url('https://i.imgur.com/W3tra4F.gif'); */
+    -webkit-transform: rotateY(180deg);
+    -moz-transform: rotateY(180deg);
+    -ms-transform: rotateY(180deg);
+    -o-transform: rotateY(180deg);
+    transform: rotateY(180deg);
+  }
+  .front, .back{
+    transition: all .5s linear;
+  }
+  .front{
+    /*FONDO DE PUBLICACIONES*/
+    /* background-image:url('https://i.imgur.com/W3tra4F.gif'); */
+    background-color: var(--color-fuerteP);
+    z-index:1;
+    box-shadow: 5px 5px 5px #aaa;
+
+  }
+
+/*PONER COLOR AL CUADRADO INICIO*/
+/* PARA PONERLO EN CUADRADO */
+.container .box span
+{
+  position: absolute;
+  top: 6px;
+  left: 6px;
+  right: 6px;
+  bottom: 6px;
+  /* background: rgba(0,0,0,0.6); */
+  /*FONDO DE LAS TARJETAS NORMALES*/
+  background:linear-gradient(-80deg, var(--color-debilP), var(--color-fuerteP));
+
+  /* background-image:url('https://i.imgur.com/W3tra4F.gif');  */
+  z-index: 2;
+}
+/*CONTAINER PARA INICIO*/
+.container
+{
+  position: relative;
+    /* width: 100%; */
+    background-image: linear-gradient(-10deg, var(--color-debilP)0%, var(--color-fuerteP) 100%);
+    border-radius: 10px;
+    color: var(--color-fuenteModal);
+    /* min-height: 100vh; */
+    /* overflow: hidden; */
 }
 /* PERFIL */
-
+.modal-body .modal-footer button{
+  color:var(--color-fuenteModal);
+}
+.modal-body button {
+  color:var(--color-fuenteModal);
+}
+.modal-body{
+  color: var(--color-fuenteModal);
+}
+.modal-body .form-group input{
+  border-color: var(--color-fuenteModal);
+}
 .Gradiente{
 	background: linear-gradient(-80deg, var(--color-debilP), var(--color-fuerteP));
-    color: aliceblue;
+    color: var(--color-fuenteModal);
 }
 .GradienteInverso
 {
 	background: linear-gradient(-80deg, var(--color-fuerteP), var(--color-debilP));
-    color: aliceblue;
+    color: var(--color-fuenteModal);
 }
 /* HEADS DE LAS TABLAS */
+strong h2{
+  color: var(--color-debilP);
+}
+.modal-header h4{
+  color: var(--color-debilP);
+}
 .table-responsive table thead{
   background: var(--color-fuerteP);
 }
@@ -32,10 +126,13 @@
 .modal-content {
   /* background: linear-gradient(1deg, #138acf, #1c20e6); */
   background: linear-gradient(-80deg, var(--color-debilP), var(--color-fuerteP));
-  color: aliceblue;
+  color: var(--color-fuenteModal);
 }
 #content{
   background: linear-gradient(-180deg, var(--color-fuerteP), var(--color-debilP)); padding: 5px 20px;
+}
+body{
+  background: linear-gradient(-180deg, var(--color-fuerteP), var(--color-debilP));;
 }
 .modal-header{
   background-color: var(--color-fuerteP);
@@ -44,19 +141,19 @@
 .modal-body .form-control {
 /* background: linear-gradient(150deg, #1c20e6, #138acf); */
 background: linear-gradient(150deg, var(--color-fuerte), var(--color-debil));
-color: aliceblue;
+color: var(--color-fuenteModal);
 }
 /*LOS INPUTS DE LOS FORMULARIOS*/
 .modal-body .form-group input {
   /* background: linear-gradient(150deg, #1c20e6, #138acf); */
   background: linear-gradient(150deg, var(--color-fuerte), var(--color-debil));
-  color: aliceblue;
+  color: var(--color-fuenteModal);
 }
 /* LOS SELECT DE LOS FORMULARIOS */
 .modal-body .form-group select {
   /* background: linear-gradient(150deg, #1c20e6, #138acf); */
   background: linear-gradient(150deg, var(--color-fuerte), var(--color-debil));
-  color: rgb(255, 255, 255);
+  color: var(--color-fuenteModal);
 }
 .modal-body .form-group select optgroup option{
   /* background: linear-gradient(150deg, #1c20e6, #138acf); */
