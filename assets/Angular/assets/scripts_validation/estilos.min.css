@@ -3,25 +3,25 @@
   --color-fuenteModal:#000; /*COLOR DE FUENTES EN MODALS fff es blanco   , 000 es negro*/
   /* PARA FORMS INPUTS*/
   /* IFA */
-  /* --color-fuerte:#ac1905;
-  --color-debil:#ec9696; */
+  --color-fuerte:#ac1905;
+  --color-debil:#ec9696;
 
   /* PARA BELLAS ARTES */
   /* --color-fuerte:#cf5d00,#251303c8;
   --color-debil:#cf5d00; */
   /* PARA KOLKLORE */
-  --color-fuerte:#23afc4,#fff;
-  --color-debil:#23afc4;
+  /* --color-fuerte:#23afc4,#fff;
+  --color-debil:#23afc4; */
   /* PARA PAGINA Y FORMS*/
   /* IFA */
-  /* --color-fuerteP:#750202;
-  --color-debilP:#e99898; */
+  --color-fuerteP:#750202;
+  --color-debilP:#e99898;
   /* PARA BELLAS ARTES */
   /* --color-fuerteP:#c55902,#1f0f00;
   --color-debilP:#1f0f00; */
   /* PARA KOLKLORE */
-  --color-fuerteP:#136673;
-  --color-debilP:#ffffff;
+  /* --color-fuerteP:#136673;
+  --color-debilP:#ffffff; */
 }
 .headerCardlcch{
   background-color: var(--color-fuerteP);
