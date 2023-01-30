@@ -1,6 +1,6 @@
 
 :root{
-  --color-fuenteModal:#000; /*COLOR DE FUENTES EN MODALS fff es blanco   , 000 es negro*/
+  --color-fuenteModal:#fff; /*COLOR DE FUENTES EN MODALS fff es blanco   , 000 es negro*/
   /* PARA FORMS INPUTS*/
   /* IFA */
   --color-fuerte:#ac1905;
@@ -22,6 +22,9 @@
   /* PARA KOLKLORE */
   /* --color-fuerteP:#136673;
   --color-debilP:#ffffff; */
+}
+.caja-lcch{
+  background-color: var(--color-fuerteP);
 }
 .headerCardlcch{
   background-color: var(--color-fuerteP);
