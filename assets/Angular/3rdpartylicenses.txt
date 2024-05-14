@@ -13,6 +13,66 @@ MIT
 @angular/router
 MIT
 
+@syncfusion/ej2-angular-base
+SEE LICENSE IN license
+
+@syncfusion/ej2-angular-richtexteditor
+SEE LICENSE IN license
+
+@syncfusion/ej2-base
+SEE LICENSE IN license
+
+@syncfusion/ej2-buttons
+SEE LICENSE IN license
+
+@syncfusion/ej2-calendars
+SEE LICENSE IN license
+
+@syncfusion/ej2-compression
+SEE LICENSE IN license
+
+@syncfusion/ej2-data
+SEE LICENSE IN license
+
+@syncfusion/ej2-dropdowns
+SEE LICENSE IN license
+
+@syncfusion/ej2-excel-export
+SEE LICENSE IN license
+
+@syncfusion/ej2-file-utils
+SEE LICENSE IN license
+
+@syncfusion/ej2-filemanager
+SEE LICENSE IN license
+
+@syncfusion/ej2-grids
+SEE LICENSE IN license
+
+@syncfusion/ej2-inputs
+SEE LICENSE IN license
+
+@syncfusion/ej2-layouts
+SEE LICENSE IN license
+
+@syncfusion/ej2-lists
+SEE LICENSE IN license
+
+@syncfusion/ej2-navigations
+SEE LICENSE IN license
+
+@syncfusion/ej2-pdf-export
+SEE LICENSE IN license
+
+@syncfusion/ej2-popups
+SEE LICENSE IN license
+
+@syncfusion/ej2-richtexteditor
+SEE LICENSE IN license
+
+@syncfusion/ej2-splitbuttons
+SEE LICENSE IN license
+
 axios
 MIT
 Copyright (c) 2014-present Matt Zabriskie
@@ -765,7 +825,7 @@ Apache-2.0
       same "printed page" as the copyright notice for easier
       identification within third-party archives.
 
-   Copyright (C) 2012-present   SheetJS LLC 
+   Copyright (C) 2012-present   SheetJS LLC
 
    Licensed under the Apache License, Version 2.0 (the "License");
    you may not use this file except in compliance with the License.
